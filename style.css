@@ -1,23 +1,46 @@
 html,
 body {
-    width:250px;
-    color:#4d4e53;
-    background-color: grey;
     font-family: 'Open Sans', Arial, sans-serif;
-    text-align: center;
-    line-height: 1;
-
-
+    overflow: auto !important;
 }
-#navbar{
-    border-right: solid;
+
+
+.left-side{
+    border-right: solid #99A2A2;
+    position: fixed;
+    left: 0;
+
 
 }
 p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    padding-left: 20px;
 }
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color: #2F2F2F;
+}
+
+.right-side{
+    padding: 30px;
+    margin-left: 370px;
+}
+
+code{
+    background-color: #F7F7F7;
+    color: #4D4E53 !important;
+    padding: 20px;
+}
+
+#content-plan a {
+    border-top: 1px solid #99A2A2;
+    color: #969699;
+}
+
+.navbarSection{
+    height:540px;
+    overflow-y:auto;
+    margin-right: -10px;
 }
